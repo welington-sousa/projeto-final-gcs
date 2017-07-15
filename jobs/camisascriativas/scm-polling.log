@@ -1,0 +1,8 @@
+Started on Jul 15, 2017 12:32:00 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision 4fc81ff80a6d65c9ca6b10191ab7b989864b0ecc (refs/remotes/origin/master)
+ > git ls-remote -h https://github.com/welington-sousa/camisascriativas.git # timeout=10
+Found 1 remote heads on https://github.com/welington-sousa/camisascriativas.git
+[poll] Latest remote head revision on refs/heads/master is: 4fc81ff80a6d65c9ca6b10191ab7b989864b0ecc - already built by 3
+Done. Took 1.8 sec
+No changes

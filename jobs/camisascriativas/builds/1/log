@@ -1,0 +1,71 @@
+Started by user [8mha:////4EEsoWTrSdzJ6ArT/RUTDIcEh9q9faBdOFwGesFIFW08AAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZR/dLi1CL98lSghekl+XnxxfmlxYkAhbtzKcoAAAA=[0mWelington Sousa
+Building in workspace /var/lib/jenkins/workspace/camisascriativas
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/welington-sousa/camisascriativas.git # timeout=10
+Fetching upstream changes from https://github.com/welington-sousa/camisascriativas.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/welington-sousa/camisascriativas.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 4fc81ff80a6d65c9ca6b10191ab7b989864b0ecc (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 4fc81ff80a6d65c9ca6b10191ab7b989864b0ecc
+First time build. Skipping changelog.
+[camisascriativas] $ /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/3.3.3/bin/mvn -f pom.xml clean package
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building camisascriativas 1.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:////4D4mYYk8EvWwU8IcrB8phdGLhn3WGUWDpkhrSXG6mYbfAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ camisascriativas ---
+[INFO] Deleting /var/lib/jenkins/workspace/camisascriativas/target
+[INFO] 
+[8mha:////4D4mYYk8EvWwU8IcrB8phdGLhn3WGUWDpkhrSXG6mYbfAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ camisascriativas ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[8mha:////4D4mYYk8EvWwU8IcrB8phdGLhn3WGUWDpkhrSXG6mYbfAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ camisascriativas ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 15 source files to /var/lib/jenkins/workspace/camisascriativas/target/classes
+[INFO] 
+[8mha:////4D4mYYk8EvWwU8IcrB8phdGLhn3WGUWDpkhrSXG6mYbfAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ camisascriativas ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/camisascriativas/src/test/resources
+[INFO] 
+[8mha:////4D4mYYk8EvWwU8IcrB8phdGLhn3WGUWDpkhrSXG6mYbfAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ camisascriativas ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /var/lib/jenkins/workspace/camisascriativas/target/test-classes
+[INFO] 
+[8mha:////4D4mYYk8EvWwU8IcrB8phdGLhn3WGUWDpkhrSXG6mYbfAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ camisascriativas ---
+[INFO] Surefire report directory: /var/lib/jenkins/workspace/camisascriativas/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running unit.br.com.camisascriativas.models.CarrinhoDeComprasTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.296 sec
+
+Results :
+
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[8mha:////4D4mYYk8EvWwU8IcrB8phdGLhn3WGUWDpkhrSXG6mYbfAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-war-plugin:2.4:war (default-war) @ camisascriativas ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [camisascriativas] in [/var/lib/jenkins/workspace/camisascriativas/target/camisascriativas-1.0.0-SNAPSHOT]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/var/lib/jenkins/workspace/camisascriativas/src/main/webapp]
+[INFO] Webapp assembled in [461 msecs]
+[INFO] Building war: /var/lib/jenkins/workspace/camisascriativas/target/camisascriativas-1.0.0-SNAPSHOT.war
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 13.848 s
+[INFO] Finished at: 2017-07-15T10:20:15-03:00
+[INFO] Final Memory: 22M/217M
+[INFO] ------------------------------------------------------------------------
+Recording test results
+ERROR: Step ‘Publish JUnit test result report’ failed: No test report files were found. Configuration error?
+[8mha:////4J4JfF1PnL++L+RNSVBKhnzwKOadNwkMnk8hOMt24djsAAAAVx+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0mV3NWzufebKBsTA0NFEYMUmgZnCA1SyAABjCCFBQC2xNaiYAAAAA==[0mFinished: FAILURE
